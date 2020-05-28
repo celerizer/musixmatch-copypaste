@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Musixmatch Copypaste",
+  "version": "1.0",
+
+  "description": "Allow context menu and selection on Musixmatch",
+
+  "content_scripts": [
+    {
+      "matches": ["*://www.musixmatch.com/lyrics/*"],
+      "js": ["musixmatch-copypaste.js"]
+    }
+  ]
+}
